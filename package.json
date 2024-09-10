@@ -6,5 +6,8 @@
     "@playwright/test": "^1.47.0",
     "@types/node": "^22.5.4"
   },
-  "scripts": {}
+  "scripts": {
+    "test":"npx playwright test",
+    "showreport":"npx playwright show-report"
+  }
 }
